@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Ejemplo Contacto Sección:</h1>
+
+<form id="contacto" action="">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" value="nombreEjemplo"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="emailEjemplo@gmail.com"><br><br>
+  <label for="comentario">Comentario:</label><br>
+  <textarea id="comentario" name="comentario" rows="4" cols="50">comentarioEjemplo</textarea><br><br>
+  <input type="submit" value="Enviar">
+</form> 
+
+<script>
+const form = document.getElementById('contacto');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const nombre = document.getElementById('nombre').value;
+  const email = document.getElementById('email').value;
+  const comentario = document.getElementById('comentario').value;
+  guardarContacto(nombre, email, comentario);
+});
+
+
+function guardarContacto (nombre, email, comentario) {
+  //     ↓↓↓↓ Reemplazar con el link generado por tu Google Forms respetando los campos 'name', 'email' y 'comentario' ↓↓↓↓
+  fetch(`https://docs.google.com/forms/d/e/********/formResponse?submit=Submit&usp=pp_url&entry.2005620554=${nombre}&entry.1045781291=${email}&entry.839337160=${comentario}`)
+    .catch(() => {
+      alert('Contacto Guardado!')
+    })
+}
+</script>
+
+</body>
+</html>
