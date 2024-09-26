@@ -16,9 +16,8 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
 1. Crear un **"Formulario en blanco"** de Google (https://docs.google.com/forms/), tambien puede usar la plantilla de **"Datos de contacto"**.
 
 2. Colocar los campos deseados de contacto. Ejemplo:
-    > [!NOTE]
-    >
-    > La cantidad de campos debe coincidir con los de la sección de contacto de tu página.
+> [!NOTE]
+> La cantidad de campos debe coincidir con los de la sección de contacto de tu página.
 
     ![Screenshot de un form google de ejemplo.](/assets/formExample.png)
 
