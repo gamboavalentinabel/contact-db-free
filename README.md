@@ -19,7 +19,7 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
 > [!NOTE]
 > La cantidad de campos debe coincidir con los de la sección de contacto de tu página.
 
-![Screenshot de un form google de ejemplo.](/assets/formExample.png)
+![Screenshot de un form google de ejemplo.](/assets/formExamplee.png)
 
 3. En la sección **Respuestas**, selecciona la opción **"Vincular con Hojas de cálculo"**.
 
