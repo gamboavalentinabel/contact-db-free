@@ -2,7 +2,7 @@
 
 Este repositorio explica cómo usar formularios de Google como base de datos para guardar los mensajes de la sección de contacto de tu página web.
 
-![Screenshot de una sección de contacto de ejemplo.](/assets/contact1.png)
+![Screenshot de una sección de contacto de ejemplo.](/assets/contact2.png)
 
 > [!IMPORTANT]
 > La información la saque de un directo de Twitch de [goncypozzo](https://github.com/goncy) → [Canal de Twitch](https://www.twitch.tv/goncypozzo).
@@ -60,7 +60,7 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
     ```
     https://docs.google.com/forms/d/e/********/viewform?usp=pp_url&entry.2005620554=nombreEjemplo&entry.1045781291=emailEjemplo@gmail.com&entry.839337160=comentariosEjemplo
     ```
-    Debes reemplazar la palabra `viewform` por `formResponse` y, después del `?`, agregar `submit=Submit&`.
+    Debes reemplazar la palabra `viewform` por `formResponse` y después del `?`, agregar `submit=Submit&`.
 
     > 📌 Con esta modificación, al realizar un fetch con este enlace, se enviará la información.
 
