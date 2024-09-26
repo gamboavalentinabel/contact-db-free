@@ -2,7 +2,7 @@
 
 Este repositorio explica cómo usar formularios de Google como base de datos para guardar los mensajes de la sección de contacto de tu página web.
 
-![Screenshot de una sección de contacto de ejemplo.](/assets/contact2.png)
+![Screenshot de una sección de contacto de ejemplo.](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/contact2.png?raw=true)
 
 > [!IMPORTANT]
 > La información la saque de un directo de Twitch de [goncypozzo](https://github.com/goncy) → [Canal de Twitch](https://www.twitch.tv/goncypozzo).
@@ -23,25 +23,25 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
     - Correo electrónico.
     - Comentarios.
 
-    ![Screenshot de un form google de ejemplo.](/assets/formExample.png)
+    ![Screenshot de un form google de ejemplo.](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/formExample.png?raw=true)
 
 3. En la sección **Respuestas**, selecciona la opción **"Vincular con Hojas de cálculo"**.
 
-    ![Screenshot de un form google en la sección de respuestas.](/assets/formRespuestas.png)
+    ![Screenshot de un form google en la sección de respuestas.](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/formRespuestas.png?raw=true)
   
     En esta **Hoja de cálculo** se guardarán todos los mensajes enviados desde la sección de contacto de tu página.
 
     > 📌 Cada columna representa un campo del formulario, además de una columna con la marca temporal del mensaje.
 
-    ![Screenshot de un excel de google.](/assets/excel.png)
+    ![Screenshot de un excel de google.](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/excel.png?raw=true)
 
 4. Luego, en el formulario, en la sección **Configuración**, dentro de **Respuestas**, desactiva la opción **"Limitar a 1 respuesta"**.
 
-    ![Screenshot de un form google en la sección de configuración.](/assets/formConfig.png)
+    ![Screenshot de un form google en la sección de configuración.](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/formConfig.png?raw=true)
 
 5. Luego, en las opciones junto al botón **Enviar** (arriba a la derecha), selecciona la opción **"Obtener enlace previamente rellenado"**.
 
-    ![Screenshot de un form google en la sección de configuración 2.](/assets/formConfig2.png)
+    ![Screenshot de un form google en la sección de configuración 2.](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/formConfig2.png?raw=true)
 
 6. Después del paso anterior, se abrirá una nueva pestaña para completar los campos del formulario y generar un enlace. Ingresa cualquier valor en todos los campos (diferenciando cada uno).
 
@@ -52,7 +52,7 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
 
     Luego seleccionar **"Obtener enlace"** y finalmente elige la opción **"COPIAR ENLACE"**.
 
-    ![Screenshot de un form google en la sección de configuración en el apratado de Link](/assets/formLink.png)
+    ![Screenshot de un form google en la sección de configuración en el apratado de Link](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/formLink.png?raw=true)
 
 7. Pega el enlace en un bloc de notas o en Visual Studio Code para editarlo:
 
@@ -64,7 +64,7 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
 
     > 📌 Con esta modificación, al realizar un fetch con este enlace, se enviará la información.
 
-    ![Screenshot de la modificación del link1](/assets/link1.png)
+    ![Screenshot de la modificación del link1](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/link1.png?raw=true)
 
     Quedando así:
 
@@ -74,7 +74,7 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
 
     Ten en cuenta que cada campo del formulario, en el enlace, está representado por un `entry` seguido de un número correspondiente (identificador del campo) y del valor del campo ingresado en el paso anterior.
 
-    ![Screenshot de la modificación del link2](/assets/link2.png)
+    ![Screenshot de la modificación del link2](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/link2.png?raw=true)
     
     Por ejemplo, el parámetro `entry.2005620554=nombreEjemplo` corresponde al campo **'Nombre'** de nuestro formulario. Al modificar `nombreEjemplo` por el nombre de contacto que los usuarios ingresan en nuestra página, podremos registrarlo en la hoja de cálculo creada anteriormente.
 
@@ -95,7 +95,7 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
 
 9. ¡Listo! Ahora tenemos una **base de datos** que almacena los datos de contacto. Cuando un usuario de nuestra página envía la información a través de la **función** creada en el punto anterior, se guarda en la **Hoja de cálculo** que creamos en el paso 3.
 
-    ![Screenshot de un form google en la sección de configuración en el apratado de Link](/assets/excel2.png)
+    ![Screenshot de un form google en la sección de configuración en el apratado de Link](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/excel2.png?raw=true)
 
 ## 👨‍💻 Ejemplos
-📌 [index.html](/example/index.html)
+📌 [index.html](https://github.com/gamboavalentinabel/contact-db-free/blob/main/example/index.html)
