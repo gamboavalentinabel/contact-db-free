@@ -39,7 +39,7 @@ Este repositorio explica cómo usar formularios de Google como base de datos par
 
     ![Screenshot de un form google en la sección de configuración.](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/formConfig.png?raw=true)
 
-5. Luego, en las opciones junto al botón **Enviar** (arriba a la derecha), selecciona la opción **"Obtener enlace previamente rellenado"**.
+5. Posteriormente, en las opciones junto al botón **Enviar** (arriba a la derecha), selecciona la opción **"Obtener enlace previamente rellenado"**.
 
     ![Screenshot de un form google en la sección de configuración 2.](https://github.com/gamboavalentinabel/contact-db-free/blob/main/assets/formConfig2.png?raw=true)
 
